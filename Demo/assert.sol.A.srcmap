@@ -1,0 +1,1015 @@
+0 PUSH1 0x80
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+2 PUSH1 0x40
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+4 MSTORE
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+5 CALLVALUE
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+6 DUP1
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+7 ISZERO
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+8 PUSH1 0x0f
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+10 JUMPI
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+11 PUSH1 0x00
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+13 DUP1
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+14 REVERT
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+15 JUMPDEST
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+16 POP
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+17 PUSH1 0x04
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+19 CALLDATASIZE
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+20 LT
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+21 PUSH1 0x28
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+23 JUMPI
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+24 PUSH1 0x00
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+26 CALLDATALOAD
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+27 PUSH1 0xe0
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+29 SHR
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+30 DUP1
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+31 PUSH4 0x60b7e248
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+36 EQ
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+37 PUSH1 0x2d
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+39 JUMPI
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+40 JUMPDEST
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+41 PUSH1 0x00
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+43 DUP1
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+44 REVERT
+contract A{
+    uint a;
+    uint c;
+    function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+}
+
+45 JUMPDEST
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+46 PUSH1 0x58
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+48 PUSH1 0x04
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+50 DUP1
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+51 CALLDATASIZE
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+52 SUB
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+53 PUSH1 0x20
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+55 DUP2
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+56 LT
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+57 ISZERO
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+58 PUSH1 0x41
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+60 JUMPI
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+61 PUSH1 0x00
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+63 DUP1
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+64 REVERT
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+65 JUMPDEST
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+66 DUP2
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+67 ADD
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+68 SWAP1
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+69 DUP1
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+70 DUP1
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+71 CALLDATALOAD
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+72 ISZERO
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+73 ISZERO
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+74 SWAP1
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+75 PUSH1 0x20
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+77 ADD
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+78 SWAP1
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+79 SWAP3
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+80 SWAP2
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+81 SWAP1
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+82 POP
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+83 POP
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+84 POP
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+85 PUSH1 0x5a
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+87 JUMP
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+88 JUMPDEST
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+89 STOP
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+90 JUMPDEST
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+91 DUP1
+b
+
+92 ISZERO
+if(b)
+            c = 12;
+        else
+            c = 34
+
+93 PUSH1 0x6b
+if(b)
+            c = 12;
+        else
+            c = 34
+
+95 JUMPI
+if(b)
+            c = 12;
+        else
+            c = 34
+
+96 PUSH1 0x0c
+12
+
+98 PUSH1 0x01
+c
+
+100 DUP2
+c = 12
+
+101 SWAP1
+c = 12
+
+102 SSTORE
+c = 12
+
+103 POP
+c = 12
+
+104 PUSH1 0x74
+if(b)
+            c = 12;
+        else
+            c = 34
+
+106 JUMP
+if(b)
+            c = 12;
+        else
+            c = 34
+
+107 JUMPDEST
+if(b)
+            c = 12;
+        else
+            c = 34
+
+108 PUSH1 0x22
+34
+
+110 PUSH1 0x01
+c
+
+112 DUP2
+c = 34
+
+113 SWAP1
+c = 34
+
+114 SSTORE
+c = 34
+
+115 POP
+c = 34
+
+116 JUMPDEST
+if(b)
+            c = 12;
+        else
+            c = 34
+
+117 PUSH1 0x02
+2
+
+119 PUSH1 0x01
+c
+
+121 SLOAD
+c
+
+122 ADD
+c + 2
+
+123 PUSH1 0x00
+a
+
+125 DUP2
+a = c + 2
+
+126 SWAP1
+a = c + 2
+
+127 SSTORE
+a = c + 2
+
+128 POP
+a = c + 2
+
+129 PUSH1 0x01
+c
+
+131 SLOAD
+c
+
+132 PUSH1 0x00
+a
+
+134 SLOAD
+a
+
+135 LT
+a >= c
+
+136 ISZERO
+a >= c
+
+137 DUP1
+a >= c && a >= 2
+
+138 ISZERO
+a >= c && a >= 2
+
+139 PUSH1 0x96
+a >= c && a >= 2
+
+141 JUMPI
+a >= c && a >= 2
+
+142 POP
+a >= c && a >= 2
+
+143 PUSH1 0x02
+2
+
+145 PUSH1 0x00
+a
+
+147 SLOAD
+a
+
+148 LT
+a >= 2
+
+149 ISZERO
+a >= 2
+
+150 JUMPDEST
+a >= c && a >= 2
+
+151 PUSH1 0x9b
+assert(a >= c && a >= 2)
+
+153 JUMPI
+assert(a >= c && a >= 2)
+
+154 INVALID
+assert(a >= c && a >= 2)
+
+155 JUMPDEST
+assert(a >= c && a >= 2)
+
+156 POP
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
+157 JUMP
+function B(bool b) public {
+        if(b)
+            c = 12;
+        else
+            c = 34;
+        a = c + 2;
+        assert(a >= c && a >= 2);
+    }
+
